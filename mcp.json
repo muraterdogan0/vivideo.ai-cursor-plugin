@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "vivideo": {
+      "url": "https://integrations.vivideo.ai/mcp",
+      "auth": {
+        "CLIENT_ID": "connected-app-live-59442134-326b-4e29-a49c-01343395acee",
+        "scopes": [
+          "openid",
+          "email",
+          "vivideo:account:read",
+          "vivideo:videos:read",
+          "vivideo:videos:create"
+        ]
+      }
+    }
+  }
+}

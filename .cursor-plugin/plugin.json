@@ -1,0 +1,24 @@
+{
+  "name": "vivideo-ai-video-generator",
+  "description": "Create and manage AI videos with Vivideo directly from Cursor.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Vivideo",
+    "email": "support@vivideo.ai"
+  },
+  "homepage": "https://vivideo.ai",
+  "repository": "https://github.com/muraterdogan0/vivideo.ai-cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "ai-video",
+    "ai-video-generator",
+    "text-to-video",
+    "image-to-video",
+    "video-generation",
+    "vivideo"
+  ],
+  "logo": "assets/vivideo-logo.svg",
+  "skills": "skills",
+  "commands": "commands",
+  "mcpServers": "mcp.json"
+}

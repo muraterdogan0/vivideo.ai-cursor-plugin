@@ -17,7 +17,22 @@ settings rather than guessing at a fix.
 
 For plan, credit balance, or quota questions, call `check_account`.
 
-## Choosing how to create the video
+## Free accounts: the video plan
+
+When the user asks for a video, call `check_account` first. If it shows
+`premium=false`, do not call `create_auto_video` or `create_manual_video`:
+
+1. Call `create_video_plan` with the user's request in their own words. Vivideo's
+   planner writes the plan; never write a plan, script or scenes yourself.
+2. Show the plan from the result (title, style, script, scenes) and ask whether to
+   make the video or change something. For a change, call `revise_video_plan`.
+3. When the user says go, call `generate_video_from_plan` and give the user the
+   Vivideo link from its result exactly as written.
+4. Later, `get_video_plan` reports whether the video is being made or finished.
+
+Follow the "Next step" line in each tool result.
+
+## Choosing how to create the video (paid accounts)
 
 Prefer `create_auto_video` for the simplest complete result. It selects
 reasonable defaults, so it is the right default when the user describes what

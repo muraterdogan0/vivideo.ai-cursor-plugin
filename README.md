@@ -10,6 +10,8 @@ Vivideo — Cursor does not render video itself.
 ## What you can do
 
 - Generate a video from a text description
+- Get a video plan (title, script, style and scenes) written by Vivideo, ask for a
+  change, then make the video
 - Turn an image into video (image-to-video)
 - Use Vivideo avatars, voices, and brand kits
 - Estimate credit cost before generating
@@ -19,9 +21,11 @@ Vivideo — Cursor does not render video itself.
 
 - A [Vivideo](https://vivideo.ai) account. You will be asked to sign in and
   authorize Cursor the first time you use the plugin.
-- Vivideo credits. Video generation is **not free** — rendering consumes credits
-  from your account and may require a paid plan. Listing videos and checking
-  status do not consume credits.
+- On a free Vivideo account, Vivideo writes a video plan for your request that you
+  can review and change once. The finished video is made after you start a
+  Vivideo plan on vivideo.ai; the plugin gives you the link.
+- On a paid account, rendering consumes Vivideo credits. Listing videos and
+  checking status do not consume credits.
 
 ## Installation
 
@@ -87,7 +91,8 @@ secrets, API keys or access tokens in its public repository.
 
 ## Limitations
 
-- Rendering requires Vivideo credits and may require a paid plan.
+- Rendering requires Vivideo credits on a paid plan; free accounts get a video
+  plan and finish the video on vivideo.ai.
 - Video generation is asynchronous. A newly created video is usually queued or
   processing, not immediately ready.
 - Rich video preview cards are not rendered inside Cursor; the plugin reports

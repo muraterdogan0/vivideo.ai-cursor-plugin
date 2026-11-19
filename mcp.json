@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "vivideo": {
-      "url": "https://integrations.vivideo.ai/mcp",
+      "url": "https://integrations.vivideo.ai/mcp/v1",
       "auth": {
         "CLIENT_ID": "connected-app-live-59442134-326b-4e29-a49c-01343395acee",
         "scopes": [

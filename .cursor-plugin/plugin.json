@@ -1,7 +1,8 @@
 {
   "name": "vivideo-ai-video-generator",
-  "description": "Create and manage AI videos with Vivideo directly from Cursor.",
-  "version": "1.1.0",
+  "displayName": "Vivideo",
+  "description": "Create AI videos with Vivideo from Grok Bot or Cursor: get a video plan written for you (title, script, style and scenes), change it, then make the video. Avatars, voices, brand kits and 30+ video models.",
+  "version": "1.1.1",
   "author": {
     "name": "Vivideo",
     "email": "support@vivideo.ai"
